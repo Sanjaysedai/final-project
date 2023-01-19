@@ -9,7 +9,7 @@
   --hue-color: 190;
 
   /* HSL color mode */
-  --first-color: #44686f; /* hsl(var(--hue-color), 64%, 22%); */
+  --first-color: hsl(var(--hue-color), 64%, 22%);
   --first-color-second: hsl(var(--hue-color), 64%, 22%);
   --first-color-alt: hsl(var(--hue-color), 64%, 15%);
   --title-color: hsl(var(--hue-color), 64%, 18%);
@@ -159,7 +159,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color:#44686f;
+  background-color: var(--first-color);
 }
 
 /* NAV */
